@@ -1,0 +1,13 @@
+<package>
+  <description brief="">
+  
+  </description>
+  <author>Nam Giang Huynh/huynh@tzi.de</author>
+  <license></license>
+  <url>http://</url>
+  <logo>http://</logo>
+  <depend package="base/cmake" />
+  <depend package="rtt_corba_remote" />
+  <depend package="rtt" />
+  <depend package="communication/lib" />
+</package>

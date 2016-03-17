@@ -1,0 +1,4 @@
+lib/build
+lib/*.kdev4
+orogen/client/build
+orogen/client/*.kdev4

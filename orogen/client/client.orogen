@@ -1,0 +1,18 @@
+name "client"
+import_types_from "clientTypes.hpp"
+
+using_library "rtt_corba_remote"
+
+task_context "TaskA" do
+    needs_configuration
+    
+    output_port "messages", "/std/string"
+    periodic 0.1
+end
+
+task_context "TaskB" do
+    needs_configuration
+    
+    input_port "messages", "/std/string"
+    port_driven 'messages'
+end
